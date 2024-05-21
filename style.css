@@ -46,3 +46,58 @@ section {
   color: #5586e2;
   border: 2px solid black;
 }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .cell {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+  }
+
+  .game--title {
+    font-size: 50px;
+  }
+
+  .game--container {
+    width: 246px;
+  }
+
+  .game--status {
+    font-size: 30px;
+  }
+
+  .game--restart {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cell {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+  }
+
+  .game--title {
+    font-size: 40px;
+  }
+
+  .game--container {
+    width: 186px;
+  }
+
+  .game--status {
+    font-size: 25px;
+  }
+
+  .game--restart {
+    width: 120px;
+    height: 35px;
+    font-size: 18px;
+  }
+}
